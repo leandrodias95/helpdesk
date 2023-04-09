@@ -1,0 +1,17 @@
+------- Data 03/04/2023 -------
+a classe Pessoa é abstrata ou seja não pode criar instancias do tipo Pessoa nesse caso ou ela vai ser cliente ou tecnico
+Os atributos da classe pessoa não pode ser private, nesse caso trabalharemos com protected para que somente as subclasses
+dessa superclasse tenham tenham acesso.
+
+protected Set<Integer> perfis = new HashSet<>(); //hashset não permite ponteiro nulo, já o set não permite que tenham perfis repetidos
+
+aula 05 = 06:09h
+pesquisar o que é superclasse
+
+a classe dominio representa o conceito de negocio da aplicação e tbm o comportamento que esses dados permitem. 
+
+no springboot pode utilizar o método stream para percorrer a lista, é semelhante ao foreach do java
+
+
+----Data 09/04/2023 --------------
+//implements Serializable serve para que o codigo seja convertido em bits para ser trafegados na internet
