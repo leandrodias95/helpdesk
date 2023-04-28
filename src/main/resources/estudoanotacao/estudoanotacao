@@ -15,3 +15,19 @@ no springboot pode utilizar o método stream para percorrer a lista, é semelhan
 
 ----Data 09/04/2023 --------------
 //implements Serializable serve para que o codigo seja convertido em bits para ser trafegados na internet
+
+27/04/2023
+Arquivo application.properties
+
+spring.h2.console.enabled=true //estou habilitando o banco h2 para rodar no navegador
+spring.h2.console.path=/h2-console //posso acessar o banco enquanto o projeto estiver rodando pela url 
+
+spring.datasource.url=jdbc:h2:mem:testedb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+a anottation @AutoWired fica responsável por criar instancia da interface, gerenciar e destruir no tempo correto
